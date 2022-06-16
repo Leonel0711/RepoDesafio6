@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opinion</title>
+    <link rel="shortcut icon" href="../img/Utiles/newLogoRedLight.png">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <!--Inicio Nav-->
+    <header class="header">
+        <div class="principal_nav">
+            <a href="../index.html"><img src="../img/Utiles/newLogoRed.png" alt="imagen de logo del restaurante"
+                    class="header_logo"></a>
+            <p class="header_title">Sucursales</p>
+
+            <label for="btn-menu" class="header_label">☰</label>
+            <input type="checkbox" id="btn-menu" class="check">
+            <div class="container-menu">
+                <div class="cont-menu">
+                    <nav class="header_hideNav">
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="sucursales.html">Sucursal</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="delivery.html">Delivery</a></li>
+                            <li><a href="opinion.html">Opinion</a></li>
+                        </ul>
+                    </nav>
+                    <label for="btn-menu">✖️</label>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Fin Nav-->
+    <!--Inicio Main-->
+    <main class="main_op">
+
+        <form class="main_opinionForm">
+            <!-- Inicio fieldset Cliente -->
+            <fieldset class="main_opCliente">
+                <legend class="main_opLegend">Datos del Cliente</legend>
+                <div>
+                    <label for="apellido" class="main_opClienteLabel">Apellido</label>
+                    <input type="text" id="apellido" placeholder="ej:Vasquez" class="main_opClienteInput">
+                </div>
+
+                <div>
+                    <label for="nombre" class="main_opClienteLabel">Nombre</label>
+                    <input type="text" id="nombre" placeholder="ej:Lucas" class="main_opClienteInput">
+                </div>
+
+                <div>
+                    <label for="email" class="main_opClienteLabel">Mail</label>
+                    <input type="email" id="email" placeholder="ej: tumail@gmail.com" class="main_opClienteInput">
+                </div>
+                <div>
+                    <label for="cliente" class="main_opClienteLabel">Cliente</label>
+                    <select id="cliente" class="main_opClienteInput">
+                        <option value="delivery">Delivery</option>
+                        <option value="salon">Salon</option>
+                        <option value="mostrador">Mostrador</option>
+                    </select>
+                </div>
+
+
+                <div>
+                    <label for="sucursal" class="main_opClienteLabel">Sucursal</label>
+                    <select id="sucursal" class="main_opClienteInput">
+                        <option value="sucursal_1">Av.Corrientes</option>
+                        <option value="sucursal_2">Av.Santa Fe</option>
+                        <option value="sucursal_3">Av.9 de Julio</option>
+                    </select>
+                </div>
+
+            </fieldset>
+
+            <!-- Inicio fieldset Opinion -->
+            <fieldset class="main_opOpinion">
+                <legend class="main_opLegend">Opinion del cliente</legend>
+                <div>
+                    <label for="servicio" class="main_opClienteLabel">Atencion de nuestro personal</label>
+                    <select id="servicio" class="main_opOpinionInput">
+                        <option value="excelent">Excelente</option>
+                        <option value="nice">Muy Buena</option>
+                        <option value="fire">Regular</option>
+                        <option value="bad">Mala</option>
+                        <option value="horrible">Muy Mala</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="calidad" class="main_opClienteLabel">Calidad de Nuestro Producto</label>
+                    <select id="calidad" class="main_opOpinionInput">
+                        <option value="excelent">Excelente</option>
+                        <option value="nice">Muy Buena</option>
+                        <option value="fire">Regular</option>
+                        <option value="bad">Mala</option>
+                        <option value="horrible">Muy Mala</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="limpieza" class="main_opClienteLabel">Limpieza e higiene del local visitado</label>
+                    <select id="limpieza" class="main_opOpinionInput">
+                        <option value="excelent">Excelente</option>
+                        <option value="nice">Muy Buena</option>
+                        <option value="fire">Regular</option>
+                        <option value="bad">Mala</option>
+                        <option value="horrible">Muy Mala</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="opinion" class="main_opClienteLabel">Opinion</label>
+                    <textarea id="opinion" placeholder="opinion"
+                        class="main_opOpinionInput main_opOpinionTextare"></textarea>
+                </div>
+
+            </fieldset>
+            <input type="submit" value="Enviar" class="main_opButton">
+        </form>
+    </main>
+    <!--Fin Main-->
+    <!--Inicio Footer-->
+    <footer class="footer">
+        <p class="footer_titulo">Redes Sociales</p>
+        <div class="redes">
+            <a href="" class="footer_redes" id="insta">Instagram <img class="footer_img"
+                    src="../img/iconos/instagram.png" alt="icono de instagram"></a>
+            <a href="" class="footer_redes" id="face">Facebook <img class="footer_img" src="../img/iconos/facebook.png"
+                    alt="icono de facebook"></a>
+            <a href="" class="footer_redes" id="whatsapp">Whatsapp <img src="../img/iconos/whatsapp.png"
+                    alt="icono de whatsapp" class="footer_img"></a>
+        </div>
+        <p class="footer_text" >© 2022 Vasquez — All rights reserved. </p>
+    </footer>
+    <!--Fin Footer-->
+</body>
+
+</html>

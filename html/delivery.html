@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery</title>
+    <link rel="shortcut icon" href="../img/Utiles/newLogoRedLight.png">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <!--Inicio Nav-->
+    <header class="header">
+        <div class="principal_nav">
+            <a href="../index.html"><img src="../img/Utiles/newLogoRed.png" alt="imagen de logo del restaurante"
+                    class="header_logo"></a>
+            <p class="header_title">Menu</p>
+
+
+            <label for="btn-menu" class="header_label">☰</label>
+            <input type="checkbox" id="btn-menu" class="check">
+            <div class="container-menu">
+                <div class="cont-menu">
+                    <nav class="header_hideNav">
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="sucursales.html">Sucursal</a></li>
+                            <li><a href="menu.html">Menu</a>
+                            </li>
+                            <li><a href="delivery.html">Delivery</a></li>
+                            <li><a href="opinion.html">Opinion</a></li>
+                        </ul>
+                    </nav>
+                    <label for="btn-menu">✖️</label>
+                </div>
+            </div>
+
+        </div>
+        <!--Inicio SubNav-->
+        <nav class="subnav">
+            <ul class="subnav_ul">
+                <li>
+                    <a href="#combos">
+                        Combos
+                    </a>
+                </li>
+                <li>
+                    <a href="#pizza">
+                        Pizza
+                    </a>
+                </li>
+                <li>
+                    <a href="#empanadas">
+                        Empanadas
+                    </a>
+                </li>
+                <li>
+                    <a href="#minutas">
+                        Minutas
+                    </a>
+                </li>
+                <li>
+                    <a href="#bebidas">
+                        Bebidas
+                    </a>
+                </li>
+                <li>
+                    <a href="#postres">
+                        Postres
+                    </a>
+                </li>
+                <li>
+                    <a href="#descuentos">
+                        Descuentos
+                    </a>
+                </li>
+                <li>
+                    <label for="buscar">
+                        <img src="../img/iconos/lupa.png" alt="icono de busqueda">
+                    </label>
+                    <input type="text" id="buscar" placeholder="busqueda">
+                </li>
+            </ul>
+        </nav>
+        <!--Fin SubNav-->
+    </header>
+    <!--Fin Nav-->
+
+    <!--Inicio Main-->
+    <main class="menu_delivery">
+        <h1 class="main_deliTitle">Realiza tu pedido</h1>
+        <!--Inicio Section Pizza-->
+
+        <h2 class="main_deliSubtitle">Combos</h2>
+        <Section id="combos">
+            <div>
+
+            </div>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Grande Muzzarela + Grande Fugazeta+ 2 fainas</figcaption>
+                <p class="main_delFontSize">1600$</p>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Grande Muzzarela + 8 empanadas</figcaption>
+                <p class="main_delFontSize">1600$</p>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Grande Muzzarela + Grande Napolitana+ 2 fainas</figcaption>
+                <p class="main_delFontSize">1600$</p>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Grande Muzzarela + Grande Jamon+ 2 fainas</figcaption>
+                <p class="main_delFontSize">1600$</p>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Grande Muzzarela + 1 pepsi 1.5 Litros</figcaption>
+                <p class="main_delFontSize">1100$</p>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Grande Napolitana + 1 pepsi 1.5 Litros</figcaption>
+                <p class="main_delFontSize">1250$</p>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+        </Section>
+        <!--Inicio Section Pizza-->
+        <div class="main_deliBoxSubtitle">
+            <h2 class="main_deliSubtitle">Pizzas a la piedra</h2>
+        </div>
+        <Section id="pizza">
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Pizza de Muzzarela</figcaption>
+                <select id="muzza" class="main_delFontSize">
+                    <option value="grande" class="main_delFontSize">Pizza Grande 8 porciones: 800$</option>
+                    <option value="pequeña" class="main_delFontSize">Pizza Pequeña 6 porciones: 700$</option>
+                    <option value="porcion" class="main_delFontSize">2 Porciones de pizza: 300$</option>
+                </select>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Pizza de Jamon</figcaption>
+                <select  id="jamon" class="main_delFontSize">
+                    <option value="grande" class="main_delFontSize">Pizza Grande 8 porciones: 950$</option>
+                    <option value="pequeña" class="main_delFontSize">Pizza Pequeña 6 porciones: 850$</option>
+                    <option value="porcion" class="main_delFontSize">2 Porciones de pizza: 380$</option>
+                </select>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Pizza de Fugazeta</figcaption>
+                <select id="fugazeta" class="main_delFontSize">
+                    <option value="grande" class="main_delFontSize">Pizza Grande 8 porciones: 950$</option>
+                    <option value="pequeña" class="main_delFontSize">Pizza Pequeña 6 porciones: 700$</option>
+                    <option value="porcion" class="main_delFontSize">2 Porciones de pizza: 300$</option>
+                </select>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Pizza de Napolitana</figcaption>
+                <select  id="napolitana" class="main_delFontSize">
+                    <option value="grande" class="main_delFontSize">Pizza Grande 8 porciones: 800$</option>
+                    <option value="pequeña" class="main_delFontSize">Pizza Pequeña 6 porciones: 700$</option>
+                    <option value="porcion" class="main_delFontSize">2 Porciones de pizza: 300$</option>
+                </select>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Pizza de Caprese</figcaption>
+                <select id="caprese" class="main_delFontSize">
+                    <option value="grande" class="main_delFontSize">Pizza Grande 8 porciones: 800$</option>
+                    <option value="pequeña" class="main_delFontSize">Pizza Pequeña 6 porciones: 700$</option>
+                    <option value="porcion" class="main_delFontSize">2 Porciones de pizza: 300$</option>
+                </select>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Pizza de Calabresa</figcaption>
+                <select id="calabresa" class="main_delFontSize">
+                    <option value="grande" class="main_delFontSize">Pizza Grande 8 porciones: 800$</option>
+                    <option value="pequeña" class="main_delFontSize">Pizza Pequeña 6 porciones: 700$</option>
+                    <option value="porcion" class="main_delFontSize">2 Porciones de pizza: 300$</option>
+                </select>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Pizza de Roquefort</figcaption>
+                <select  id="roquefort" class="main_delFontSize">
+                    <option value="grande" class="main_delFontSize">Pizza Grande 8 porciones: 1000$</option>
+                    <option value="pequeña" class="main_delFontSize">Pizza Pequeña 6 porciones: 950$</option>
+                    <option value="porcion" class="main_delFontSize">2 Porciones de pizza: 440$</option>
+                </select>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Pizza de Palmito</figcaption>
+                <select id="palmito" class="main_delFontSize">
+                    <option value="grande" class="main_delFontSize">Pizza Grande 8 porciones: 1050$</option>
+                    <option value="pequeña" class="main_delFontSize">Pizza Pequeña 6 porciones: 950$</option>
+                    <option value="porcion" class="main_delFontSize">2 Porciones de pizza: 450$</option>
+                </select>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+        </Section>
+        <!--Inicio Section Empanadas-->
+        <div class="main_deliBoxSubtitle">
+            <h2 class="main_deliSubtitle">Empanadas</h2>
+        </div>
+        <Section id="empanadas">
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Empanada de Carne</figcaption>
+                <p class="main_delFontSize">120$</p>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Empanada de Jamon y Queso</figcaption>
+                <p class="main_delFontSize">120$</p>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Empanada de Pollo</figcaption>
+                <p class="main_delFontSize">120$</p>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Empanada Humita</figcaption>
+                <p class="main_delFontSize">120$</p>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Empanada de Cebolla y Queso</figcaption>
+                <p class="main_delFontSize">120$</p>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Empanada de Verdura</figcaption>
+                <p class="main_delFontSize">120$</p>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Empanada Salteña</figcaption>
+                <p class="main_delFontSize">140$</p>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Empanada de Roquefort</figcaption>
+                <p class="main_delFontSize">140$</p>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+        </Section>
+        <!--Inicio Section Minutas-->
+        <div class="main_deliBoxSubtitle">
+            <h2 class="main_deliSubtitle">minutas</h2>
+        </div>
+        <Section id="minutas">
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Milanesa con Fritas</figcaption>
+                <p class="main_delFontSize">700$</p>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Milanesa Napolitana con Fritas</figcaption>
+                <p class="main_delFontSize">850$</p>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Milanesa Napolitana con Pure</figcaption>
+                <p class="main_delFontSize">850$</p>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Milanesa con ensalada</figcaption>
+                <p class="main_delFontSize">850$</p>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Sandwich completo</figcaption>
+                <p class="main_delFontSize">850$</p>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Hamburguesa completa</figcaption>
+                <p class="main_delFontSize">850$</p>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+
+        </Section>
+        <!--Inicio Section Bebidas-->
+        <div class="main_deliBoxSubtitle">
+            <h2 class="main_deliSubtitle">Bebidas</h2>
+        </div>
+        <Section id="bebidas">
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Coca Cola</figcaption>
+                <select id="cocaCola" class="main_delFontSize">
+                    <option value="grande" class="main_delFontSize">Bebida grande 1.5L: 350$</option>
+                    <option value="pequeña" class="main_delFontSize">Bebida pequeña 500ML: 150$</option>
+                </select>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Pepsi</figcaption>
+                <select id="pepsi" class="main_delFontSize">
+                    <option value="grande" class="main_delFontSize">Bebida grande 1.5L: 340$</option>
+                    <option value="pequeña" class="main_delFontSize">Bebida pequeña 500ML: 140$</option>
+                </select>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Sprite</figcaption>
+                <select id="sprite" class="main_delFontSize">
+                    <option value="grande" class="main_delFontSize">Bebida grande 1.5L: 350$</option>
+                    <option value="pequeña" class="main_delFontSize">Bebida pequeña 500ML: 150$</option>
+                </select>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+            <figure class="main_deliFigure">
+                <figcaption class="main_delFontSize">Cerverza Brahama</figcaption>
+                <select id="brahama" class="main_delFontSize">
+                    <option value="grande" class="main_delFontSize">Bebida grande 1L: 380$</option>
+                    <option value="pequeña" class="main_delFontSize">Bebida pequeña 500ML: 220$</option>
+                </select>
+                <input type="number">
+                <input type="submit" value="agregar">
+            </figure>
+        </Section>
+
+    </main>
+    <!--Fin Main-->
+    <!--Inicio Footer-->
+    <footer class="footer">
+        <p class="footer_titulo">Redes Sociales</p>
+        <div class="redes">
+            <a href="" class="footer_redes" id="insta">Instagram <img class="footer_img"
+                    src="../img/iconos/instagram.png" alt="icono de instagram"></a>
+            <a href="" class="footer_redes" id="face">Facebook <img class="footer_img" src="../img/iconos/facebook.png"
+                    alt="icono de facebook"></a>
+            <a href="" class="footer_redes" id="whatsapp">Whatsapp <img src="../img/iconos/whatsapp.png"
+                    alt="icono de whatsapp" class="footer_img"></a>
+        </div>
+        <p class="footer_text">© 2022 Vasquez — All rights reserved.</p>
+    </footer>
+    <!--Fin Footer-->
+</body>
+
+</html>
